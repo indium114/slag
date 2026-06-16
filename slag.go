@@ -51,4 +51,8 @@ func Query(text string, a ...any) {
 	genericPrint(internal.QueryText, text, a...)
 }
 
+func Build(text string, a ...any) {
+	genericPrint(internal.BuildText, text, a...)
+}
+
 func main() {}
