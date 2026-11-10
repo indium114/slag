@@ -16,4 +16,5 @@ var (
 	HintText   string = color.HiCyanString("[hint]")
 	QueryText  string = color.HiYellowString("[query]")
 	BuildText  string = color.YellowString("[build]")
+	WaitText   string = color.HiBlueString("[wait]")
 )

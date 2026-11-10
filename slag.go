@@ -55,4 +55,8 @@ func Build(text string, a ...any) {
 	genericPrint(internal.BuildText, text, a...)
 }
 
+func Wait(text string, a ...any) {
+	genericPrint(internal.WaitText, text, a...)
+}
+
 func main() {}
